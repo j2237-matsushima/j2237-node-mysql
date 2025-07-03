@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('todoapp:server');
+var debug = require('debug')('node-mysql-web:server');
 var http = require('http');
 
 /**
