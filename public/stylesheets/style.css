@@ -1,8 +1,9 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-  color: #00B7FF;
-}
+body { background: #f8fafc; }
+.todo-card { box-shadow: 0 2px 8px rgba(0,0,0,0.07); border-radius: 1rem; }
+.todo-content { font-size: 1.1rem; }
+.todo-completed { text-decoration: line-through; color: #6c757d !important; }
+.badge-deadline { background: #343a40; color: #fff; }
+.badge-time { background: #6c757d; color: #fff; }
+.badge-done { background: #28a745; }
+.list-group-item { border: none; border-bottom: 1px solid #eee; }
+.list-group-item:last-child { border-bottom: none; }
